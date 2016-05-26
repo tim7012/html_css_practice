@@ -1,0 +1,111 @@
+.container {
+  width: 1172px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#logo {
+  margin:40px;
+  float: left;
+}
+
+
+
+/* #header */
+
+#header {
+  width: 100%;
+  box-sizing: border-box;
+  height: 500px;
+  background-color: #978569;
+  margin: 0 auto;
+}
+#header .container{
+  height:200px;
+}
+#header nav {
+  float: right;
+}
+#header ul {
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+#header li {
+  box-sizing: border-box;
+  float: left;
+  line-height: 70px;
+}
+#header a {
+  display: block;
+  width: 85px;
+  text-decoration: none;
+  color: black;
+}
+#header title{
+  height:335px;
+  box-sizing: border-box;
+  padding-top: 200px;
+}
+#header h1{
+  text-align: center;
+  height:135px;
+  width:1034px;
+  margin:0 auto;
+  font-size: 73px;
+  color:white;
+}
+/*section*/
+.section .profolio{
+  float:left;
+  text-align: center;
+  height:222px;
+}
+.section .container2{
+  float:left;
+  width:873px;
+  display:inline-block;
+  box-sizing: border-box;
+  height:80px;
+  padding-bottom: 0;
+}
+.navigation{
+  float:left;
+  width:100%;
+  height:145px;
+}
+.navigation .container{
+    display: inline-block;
+    width: 873px;
+    position: absolute;
+    left: 263px;
+
+}
+
+
+.navigation ul {
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.navigation li {
+  box-sizing: border-box;
+  float: left;
+  line-height: 70px;
+}
+.navigation a {
+  display: block;
+  width: 85px;
+  text-decoration: none;
+  color: black;
+}
+
+.product{
+  float:left;
+}
